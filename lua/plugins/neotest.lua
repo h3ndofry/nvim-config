@@ -8,7 +8,7 @@ return {
     table.insert(
       opts.adapters,
       require("neotest-jest")({
-        jestCommand = "pnpm jest",
+        jestCommand = "pnpm jest --color",
         env = { CI = true },
         cwd = function()
                 return vim.fn.getcwd()
