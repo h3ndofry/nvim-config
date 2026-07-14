@@ -1,5 +1,12 @@
 return {
   "folke/persistence.nvim",
   event = "BufReadPre",
-  opts = { options = { "buffers", "curdir", "tabpages", "winsize" } },
+  opts = {
+    options = {
+      "buffers",
+      "curdir",
+      "tabpages",
+      "winsize",
+    },
+  },
 }
